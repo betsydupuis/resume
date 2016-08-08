@@ -3,18 +3,15 @@
 //===========================
 @import "base/units/**/*";
 @import "base/variables";
-
 //===========================
 // Base
 //===========================
 @import "base/**/*";
 @import "behaviors/behaviors.scss";
-
 //===========================
 // Elements
 //===========================
 // @import "elements/**/*";
-
 //===========================
 // Components
 //===========================
@@ -22,9 +19,7 @@
 @import "components/typography/typography.scss";
 @import "components/highlight/elements/highlight-box/highlight-box.scss";
 @import "components/cards/cards";
-
 // @import "components/**/*";
-
 //===========================
 // Helpers
 // -----------
@@ -32,3 +27,8 @@
 //===========================
 //
 @import "behaviors/helpers";
+//===========================
+// Apps
+//===========================
+//
+@import "../resume/job/_job.scss";

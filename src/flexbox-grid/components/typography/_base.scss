@@ -3,9 +3,19 @@
 //------------------------------------------------
 //
 //===========================
-
-body {
-    font-family: $base-font-family;
+html {
     font-size: 100%;
+}
+
+body,
+.text-body {
+    font-family: $base-font-family;
+    font-size: $scale-1 + rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     color: #333;
+}
+
+.text-body {
+    font-weight: 300;
 }

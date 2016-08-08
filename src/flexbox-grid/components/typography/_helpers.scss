@@ -30,3 +30,42 @@
 }
 
 /* http://www.cssmojo.com/line-clamp_for_non_webkit-based_browsers/ */
+
+
+// Helpers - Typogrpahy
+.text-normal {
+  font-weight: normal;
+}
+.text-light {
+  font-weight: 300;
+}
+.font-display {
+  font-family: "aleo";
+  font-weight: 300;
+  &.text-bold, b{
+    font-weight: 700;
+  }
+}
+
+.font-script {
+  font-family: 'beginning-yoga';
+}
+
+
+// Helpers - Typography
+.margin-bottom-0{
+  margin-bottom: 0 !important;
+}
+.margin-bottom-inset-third{
+  margin-top: (24/72) * -1em !important;
+}
+.v-align-middle {
+  vertical-align: middle;
+}
+
+
+.text-color-primary{
+  color: #ff5400 !important;
+}
+
+
