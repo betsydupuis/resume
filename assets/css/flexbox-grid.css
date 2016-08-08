@@ -27,6 +27,43 @@ body * {
   border-radius: 100%;
 }
 
+.container-center {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.item-center {
+  margin: auto;
+}
+
+.item-center-y {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.item-center-x {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .items-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1278,6 +1315,11 @@ p {
   margin-bottom: 1.5em;
 }
 
+@media (max-width: 991px) {
+  .text-scale-down-sm {
+    font-size: 0.88889em;
+  }
+}
 .text-scale-8 {
   font-size: 4.5em;
   line-height: 1em;
@@ -1421,82 +1463,6 @@ summary {
   margin-bottom: 48px;
 }
 
-.footer {
-  background: #ff5400;
-  color: #fff;
-  min-height: 12px;
-  margin-top: 24px;
-  position: fixed;
-  z-index: 999;
-  bottom: 0;
-  width: 100%;
-  padding: 6px 12px;
-}
-.footer a,
-.footer a:visited,
-.footer .btn-link {
-  color: #fff;
-}
-.footer a:active, .footer a:focus, .footer a:hover,
-.footer a:visited:active,
-.footer a:visited:focus,
-.footer a:visited:hover,
-.footer .btn-link:active,
-.footer .btn-link:focus,
-.footer .btn-link:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-.center-contents-y {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  padding-bottom: 24px;
-}
-.center-contents-y .center-y {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-@media screen and (min-height: 720px) {
-  .center-contents-y {
-    height: 672px;
-  }
-}
-@media screen and (min-height: 600px) {
-  .center-contents-y {
-    height: 552px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 979px) and (min-height: 480px) {
-  .center-contents-y {
-    height: 432px;
-  }
-}
-/* Landscape phone to portrait tablet */
-@media screen and (max-width: 767px) and (max-height: 360px) {
-  .text-scale-down-xs {
-    font-size: 0.88889em;
-  }
-
-  .center-contents-y {
-    height: 312px;
-  }
-}
-/* Landscape phones and down */
-@media screen and (max-width: 480px) and (max-height: 240px) {
-  /*    .center-contents-y {
-    height: (24 * 15 * 1px) - 48;
-    padding-bottom: 24px;
-  }*/
-}
-@media screen and (max-width: 480px) {
-  .text-scale-down-xs {
-    font-size: 0.7619em;
-  }
-}
 .highlight-box {
   background-color: #d4d4f7;
   color: rgba(34, 34, 34, 0.5);
