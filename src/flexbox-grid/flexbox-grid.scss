@@ -7,7 +7,7 @@
 // Base
 //===========================
 @import "base/**/*";
-@import "behaviors/behaviors.scss";
+@import "behaviors/behaviors";
 //===========================
 // Elements
 //===========================
@@ -15,11 +15,7 @@
 //===========================
 // Components
 //===========================
-@import "components/grid/grid.scss";
-@import "components/typography/typography.scss";
-@import "components/highlight/elements/highlight-box/highlight-box.scss";
-@import "components/cards/cards";
-// @import "components/**/*";
+@import "components/components";
 //===========================
 // Helpers
 // -----------
@@ -31,4 +27,4 @@
 // Apps
 //===========================
 //
-@import "../resume/job/_job.scss";
+@import "../resume/job/_job";
