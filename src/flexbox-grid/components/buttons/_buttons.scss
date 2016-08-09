@@ -1,49 +1,20 @@
+@import "mixins";
+
 //===========================
 // Buttons
 //------------------------------------------------
 // A lot is borrowed from Bootstrap 3
 //===========================
 .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center; // For centering text on instances of flex
-}
+    @include btn-behavior;
 
-//  Ghost Buttons
-@mixin btn-ghost {
-    background: transparent;
-    border: 1px solid white;
-}
+    @include btn-defaults;
 
-@mixin btn-ghost-active {
-    background: white;
-    color: $palette-primary;
-}
+    padding: 0.5em 0.75em;
+    border: 1px solid;
 
-.btn-ghost {
-    @include btn-ghost;
-
-    &.btn-active, &:hover, &:active {
-        @include btn-ghost-active;
+    & + .btn {
+        margin-left: 0.75em;
     }
 }
 
