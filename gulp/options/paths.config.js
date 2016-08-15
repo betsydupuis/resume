@@ -6,6 +6,11 @@ module.exports = {
             src: './src/flexbox-grid',
             dist: './dist/assets/css',
             glob: '/!(*.spec).scss',
+        }, {
+            name: 'portfolio',
+            src: './src/portfolio',
+            dist: './dist/assets/css',
+            glob: '/!(*.spec).scss',
         },
         // {//     name: 'other',
         //     src: './src/css',

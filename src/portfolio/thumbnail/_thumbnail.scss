@@ -1,0 +1,25 @@
+.thumbnail {
+    position: relative;
+    background: #ccc;
+    &:hover {
+        .thumbnail-bg {
+            filter: blur(3px);
+        }
+    }
+}
+
+.thumbnail-cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.75s opacity;
+    background-color: rgba(0, 10, 14, 0.6);
+    color: #fff !important;
+    a {
+        color: #fff !important;
+    }
+    &:hover {
+        opacity: 1;
+    }
+}
