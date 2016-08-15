@@ -7,7 +7,8 @@ module.exports = function(gulp, plugins) {
         plugins.runSequence([
             'build:css',
             'build:html',
-            'build:fonts'
+            'build:fonts',
+            'build:images'
         ], callback);
     });
     gulp.task('build:dev', ['build:src']);
