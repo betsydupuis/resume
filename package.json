@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
+  "license": "none",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "6.3.26",
