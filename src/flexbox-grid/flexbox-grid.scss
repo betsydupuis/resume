@@ -1,27 +1,43 @@
-@import "../../node_modules/plasma.css/src/plasma/plasma.scss"
+.col-fill{
+    width: 0px;
+}
+
+@import "../../node_modules/plasma.css/src/plasma/plasma.scss";
+
+.col-fill {
+    flex: 1 1 auto;
+};
 
 // //===========================
 // // Variables and mixins
 // //===========================
-@import "base/shapes/cicle";
+// @import "base/shapes/circle";
 // @import "base/variables";
 // @import "**/_variables.scss";
 // @import "**/_mixins.scss";
+@import "base/_variables.scss";
 // //===========================
 // // Base
 // //===========================
 // @import "base/**/*";
 // @import "**/_base.scss";
 // @import "behaviors/behaviors";
-// //===========================
-// // Elements
-// //===========================
-// // @import "elements/**/*";
-// //===========================
-// // Components
-// //===========================
-// @import "components/components";
-// //===========================
+//===========================
+// Elements
+//===========================
+// @import "elements/**/*";
+//===========================
+// Components
+//===========================
+// @import "components/_components.scss";
+@import "components/typography/typography.scss";
+@import "components/buttons/_buttons.scss";
+@import "components/button-ghost/button-ghost.scss";
+@import "components/icons/icons.scss";
+@import "components/footer/footer.scss";
+@import "components/highlight/elements/highlight-box/highlight-box.scss";
+@import "components/cards/cards.scss";
+//===========================
 // // Helpers
 // // -----------
 // // Imported at the end for override purposes.
