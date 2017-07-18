@@ -4,7 +4,6 @@
 //  Resuable Style Properties
 //===========================
 
-
 //  Spacing
 
 .indent-default {
@@ -56,4 +55,82 @@
 
 .indent-default {
     padding: 12px;
-};
+}
+
+.xs {
+    &-hide {
+        display: none;
+    }
+
+    &-flex {
+        display: flex;
+    }
+
+    &-show {
+        display: initial;
+    }
+}
+
+@media (min-width: $breakpoint-sm) {
+    .sm {
+        &-hide {
+            display: none;
+        }
+
+        &-flex {
+            display: flex;
+        }
+
+        &-show {
+            display: initial;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-md) {
+    .md {
+        &-hide {
+            display: none;
+        }
+
+        &-flex {
+            display: flex;
+        }
+
+        &-show {
+            display: initial;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-lg) {
+    .lg {
+        &-hide {
+            display: none;
+        }
+
+        &-flex {
+            display: flex;
+        }
+
+        &-show {
+            display: initial;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-xl) {
+    .xl {
+        &-hide {
+            display: none;
+        }
+
+        &-flex {
+            display: flex;
+        }
+
+        &-show {
+            display: initial;
+        }
+    }
+}

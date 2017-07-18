@@ -4,8 +4,10 @@
 }
 
 @mixin btn-ghost-active {
-    background: white;
-    color: $palette-primary;
+    // background: white;
+    // color: $palette-primary;
+    background: #ff5400;
+    color: #fff;
 }
 
 @mixin btn-xs-1 {
@@ -19,7 +21,7 @@
     border-radius: 50px;
 }
 
-.btn-ghost {
+.btn-ghost, a.btn-ghost {
     @include btn-ghost;
 
     &.btn-active,
@@ -28,6 +30,7 @@
         @include btn-ghost-active;
     }
 }
+
 
 // Button sizes
 .btn-small {
