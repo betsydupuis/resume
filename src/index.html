@@ -17,14 +17,15 @@
      href="assets/css/index.css">
 </head>
 
-<body class="">
+<body class="row row-no-gutters stack xs-12" style="flex-wrap: nowrap !important;">
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
     <!--[if lt IE 9]>
     <p class="browserupgrade">You visiting a website from <strong>the future</strong> designed for internet nerds. Please upgrade to a <a href="http://caniuse.com/#search=flexbox" target="_blank">browser that supports flexbox</a>.</p>
 <![endif]-->
-    <footer class="footer row row-scrollable text-scale-down-sm sm-hide" style="position:fixed; bottom: 0; left: 0; width: 100%">
+    <footer class="bg-orange row row-no-gutters row-scrollable scrollable-x text-scale-down-sm sm-hide"
+     style="order: 1000; flex: none">
         <a href="https://github.com/betsydupuis"
          target="_blank"
          class="btn btn-link text-scale-2"> <i class="fa fa-github"></i> Github
@@ -42,137 +43,141 @@
          class="btn btn-link text-scale-2"> <i class="fa fa-dribbble"></i> Dribbble
                     </a>
     </footer>
-    <div class="container-fluid container-center-content sm-fixed-h-8 lg-fixed-h-7">
-        <div class="row-gutter-top">
-            <h4 class="text-normal text-scale-down-xs text-scale-down-xs text-scale-down-sm">
-                <span class="font-display text-scale-5 text-bold">Hello,&nbsp;I&rsquo;m <br></span><span class="font-script text-scale-8 text-color-primary margin-bottom-0 v-align-middle">Betsy&nbsp;Dupuis</span><span class="text-scale-8 margin-bottom-0">.</span><span class="text-scale-4"> I&nbsp;live&nbsp;in&nbsp;Austin,&nbsp;Tx.</span>
-            </h4>
-            <h3 class="font-display text-light margin-bottom-inset-third text-scale-down-xs text-scale-down-sm"><span class="text-scale-4">I design &amp; develop User&nbsp;Experiences.</span></h3>
+    <div class="container-fluid scrollable-y"
+     style="margin: 0;">
+        <div class="container-fluid container-center-content sm-fixed-h-8 lg-fixed-h-7">
+            <div class="row-gutter-top">
+                <h4 class="text-normal text-scale-down-xs text-scale-down-xs text-scale-down-sm">
+                    <span class="font-display text-scale-5 text-bold">Hello,&nbsp;I&rsquo;m <br></span><span class="font-script text-scale-8 text-color-primary margin-bottom-0 v-align-middle">Betsy&nbsp;Dupuis</span><span class="text-scale-8 margin-bottom-0">.</span><span class="text-scale-4"> I&nbsp;live&nbsp;in&nbsp;Austin,&nbsp;Tx.</span>
+                </h4>
+                <h3 class="font-display text-light margin-bottom-inset-third text-scale-down-xs text-scale-down-sm"><span class="text-scale-4">I design &amp; develop User&nbsp;Experiences.</span></h3>
+            </div>
+            <div class="row text-scale-down-sm xs-hide sm-flex">
+                <a href="https://github.com/betsydupuis"
+                 target="_blank"
+                 class="btn btn-ghost text-scale-2"> <i class="fa fa-github"></i> Github
+                        </a>
+                <a href="http://codepen.io/itsjustluck/"
+                 target="_blank"
+                 class="btn btn-ghost text-scale-2"> <i class="fa fa-codepen"></i> Codepen
+                        </a>
+                <a href="https://www.linkedin.com/in/dupuisbetsy"
+                 target="_blank"
+                 class="btn btn-ghost text-scale-2"> <i class="fa fa-linkedin"></i> Linkedin
+                        </a>
+                <a href="https://dribbble.com/betsydupuis"
+                 target="_blank"
+                 class="btn btn-ghost text-scale-2"> <i class="fa fa-dribbble"></i> Dribbble
+                        </a>
+            </div>
         </div>
-        <div class="row text-scale-down-sm xs-hide sm-flex">
-            <a href="https://github.com/betsydupuis"
-             target="_blank"
-             class="btn btn-ghost text-scale-2"> <i class="fa fa-github"></i> Github
-                        </a>
-            <a href="http://codepen.io/itsjustluck/"
-             target="_blank"
-             class="btn btn-ghost text-scale-2"> <i class="fa fa-codepen"></i> Codepen
-                        </a>
-            <a href="https://www.linkedin.com/in/dupuisbetsy"
-             target="_blank"
-             class="btn btn-ghost text-scale-2"> <i class="fa fa-linkedin"></i> Linkedin
-                        </a>
-            <a href="https://dribbble.com/betsydupuis"
-             target="_blank"
-             class="btn btn-ghost text-scale-2"> <i class="fa fa-dribbble"></i> Dribbble
-                        </a>
-        </div>
-    </div>
-    <hr class="gutter-section">
-    <div class="container-fluid sm-10 md-10 lg-fixed-10 xl-fixed-8 center-block">
-        <div class="row row-gutter row-gutter-top">
-            <div class="col col-fill container-fill">
-                <div class="fill ">
-                    <h1>Work Experience</h1>
-                    <div class="row row-gutter row-gutter-top section-job">
-                        <h4 class="col sm-6 ">UX/UI Developer &amp; Designer<br> <span class="text-body"><a class="text-bold" href="http://www.p2energysolutions.com/" target="_blank">P2 Energy Solutions</a></span></h4>
-                        <h6 class="col sm-6  text-right text-body">January 2015 – Present<br>Austin, TX</h6>
-                        <p class="col xs-12">
-                            At P2, I am designing and coding the front-end of a reporting app in AngularJS. I work closely with my team and project manager to gather requirements to create a detailed feature set, a product roadmap, and recommendations for API design.
-                        </p>
-                        <div class="col xs-12 md-6 col-fill">
-                            <h6>Project: Data Management App</h6>
-                            <p>Currently designing and developing a data management tool for managing the deduplication of data entries and the relationships between data entries across complex data sets.</p>
+        <hr class="gutter-section">
+        <div class="container-fluid sm-10 md-10 lg-fixed-10 xl-fixed-8 center-block">
+            <div class="row row-gutter row-align-x-center row-gutter-top">
+                <div class="col col-fill container-fill">
+                    <div class="fill ">
+                        <h1>Work Experience</h1>
+                        <div class="row row-gutter row-gutter-top section-job">
+                            <h4 class="col xs-6 ">UX/UI Developer &amp; Designer<br> <span class="text-body"><a class="text-bold" href="http://www.p2energysolutions.com/" target="_blank">P2 Energy Solutions</a></span></h4>
+                            <h6 class="col xs-6  text-right text-body">January 2015 – Present<br>Austin, TX</h6>
+                            <p class="col xs-12">
+                                At P2, I am designing and coding the front-end of a reporting app in AngularJS. I work closely with my team and project manager to gather requirements to create a detailed feature set, a product roadmap, and recommendations for API design.
+                            </p>
+                            <div class="col xs-12 md-6 col-fill">
+                                <h6>Project: Data Management App</h6>
+                                <p>Currently designing and developing a data management tool for managing the deduplication of data entries and the relationships between data entries across complex data sets.</p>
+                            </div>
+                            <div class="col xs-12 md-6 col-fill">
+                                <h6>Project: Reporting App</h6>
+                                <p>Designed and developed a reporting tool for large oil and gas datasets. The app allows users to apply filters to generate and save reports.</p>
+                            </div>
+                            <div class="col xs-12 md-6 col-fill">
+                                <h6>Project: Front-end Standards</h6>
+                                <p>Building an single-page application at scale often leads to disorganization code at the expense of readability, maintainability, and overall quality. I adopted a component based architecture with <a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure-lift-principle"
+                                     target="_blank">LIFT</a> principles in mind.</p>
+                            </div>
+                            <h4 class="col xs-12">JavaScript • AngularJS • Sass • Grunt • HTML5 • SVG</h4>
                         </div>
-                        <div class="col xs-12 md-6 col-fill">
-                            <h6>Project: Reporting App</h6>
-                            <p>Designed and developed a reporting tool for large oil and gas datasets. The app allows users to apply filters to generate and save reports.</p>
+                        <div class="row row-gutter row-gutter-top section-job">
+                            <div class="col xs-6 ">
+                                <h4>UI Developer<br> <span class="text-body"><a class="text-bold" href="https://www.nextgen.com/" target="_blank">QSI / Nextgen Healthcare</a></span></h4>
+                            </div>
+                            <h6 class="col xs-6  text-right text-body">February 2015 – December 2015<br>Austin, TX</h6>
+                            <p class="col xs-12">As a front-end developer with a designer perspective, I created resuable html/css components for a single-page application from new designs and while stabilizing legacy code. </p>
+                            <div class="col xs-6 ">
+                                <h6>Project: CSS Architecture</h6>
+                                <p>I architected the CSS for the single page application and refactored the existing application CSS for scale and resuablility.</p>
+                            </div>
+                            <div class="col xs-6 ">
+                                <h6>Project: SVG Sprites for Icons</h6>
+                                <p>I designed and implemented a modular system for creating a consitent and scalable icons system using Grunt.</p>
+                            </div>
+                            <h4 class="col xs-12">JavaScript • AngularJS • Sass • Grunt • HTML5 • SVG</h4>
                         </div>
-                        <div class="col xs-12 md-6 col-fill">
-                            <h6>Project: Front-end Standards</h6>
-                            <p>Building an single-page application at scale often leads to disorganization code at the expense of readability, maintainability, and overall quality. I adopted a component based architecture with <a href="https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#application-structure-lift-principle"
-                                 target="_blank">LIFT</a> principles in mind.</p>
+                        <div class="row row-gutter row-gutter-top section-job">
+                            <div class="col xs-6 ">
+                                <h4>Web Designer &amp; Front-End Developer<br> <span class="text-body"><a class="text-bold" href="http://www.homeaway.com" target="_blank">HomeAway</a></span></h4>
+                            </div>
+                            <h6 class="col xs-6  text-right text-body">January 2014 – January 2015<br>Austin, TX</h6>
+                            <p class="col xs-12">I designed and developed HTML email and interactive landing pages. I shipped beautiful projects on tight deadlines, through streamlining my process and automating my workflow.</p>
+                            <div class="col xs-12">
+                                <h6>Project: HTML Email Grid Framework</h6>
+                                <p>Learning from the tedious process of developing HTML emails by hand, I developed a CSS framework and automated build system for HTML Emails.</p>
+                            </div>
+                            <h4 class="col xs-12">Email Design/HTML • HTML/CSS • UX/UI Design • JavaScript • Twitter Bootstrap • PHP • Git • Handlebars.js</h4>
                         </div>
-                        <h4 class="col xs-12">JavaScript • AngularJS • Sass • Grunt • HTML5 • SVG</h4>
-                    </div>
-                    <div class="row row-gutter row-gutter-top section-job">
-                        <div class="col sm-6 ">
-                            <h4>UI Developer<br> <span class="text-body"><a class="text-bold" href="https://www.nextgen.com/" target="_blank">QSI / Nextgen Healthcare</a></span></h4>
+                        <div class="row row-gutter row-gutter-top section-job">
+                            <div class="col xs-6 ">
+                                <h4>UX/UI Developer &amp; Designer<br> <span class="text-body"><a class="text-bold" href="http://www.edgecase.io" target="_blank">Edgecase (Formerly Compare Metrics) </a></span></h4>
+                            </div>
+                            <h6 class="col xs-6  text-right text-body">March 2013 – September 2013<br>Austin, TX</h6>
+                            <p class="col xs-12">With start-up hustle, I designed and developed everthing from marketing design to front-end development for demo product implementations.</p>
+                            <div class="col xs-6 ">
+                                <h6>Project: Client Implementations </h6>
+                                <p>I designed mockups and implemented demos of product integrations and oversaw the same work done by offshore contractors.</p>
+                            </div>
+                            <div class="col xs-6 ">
+                                <h6>Project: Marketing Website &amp; Blog</h6>
+                                <p>I designed and developed the marketing website and blog, providing illustration and photography.</p>
+                            </div>
+                            <h4 class="col xs-12">UX/UI Design • UI Development • HTML5 • CSS • Wordpress</h4>
                         </div>
-                        <h6 class="col sm-6  text-right text-body">February 2015 – December 2015<br>Austin, TX</h6>
-                        <p class="col xs-12">As a front-end developer with a designer perspective, I created resuable html/css components for a single-page application from new designs and while stabilizing legacy code. </p>
-                        <div class="col sm-6 ">
-                            <h6>Project: CSS Architecture</h6>
-                            <p>I architected the CSS for the single page application and refactored the existing application CSS for scale and resuablility.</p>
-                        </div>
-                        <div class="col sm-6 ">
-                            <h6>Project: SVG Sprites for Icons</h6>
-                            <p>I designed and implemented a modular system for creating a consitent and scalable icons system using Grunt.</p>
-                        </div>
-                        <h4 class="col xs-12">JavaScript • AngularJS • Sass • Grunt • HTML5 • SVG</h4>
-                    </div>
-                    <div class="row row-gutter row-gutter-top section-job">
-                        <div class="col sm-6 ">
-                            <h4>Web Designer &amp; Front-End Developer<br> <span class="text-body"><a class="text-bold" href="http://www.homeaway.com" target="_blank">HomeAway</a></span></h4>
-                        </div>
-                        <h6 class="col sm-6  text-right text-body">January 2014 – January 2015<br>Austin, TX</h6>
-                        <p class="col xs-12">I designed and developed HTML email and interactive landing pages. I shipped beautiful projects on tight deadlines, through streamlining my process and automating my workflow.</p>
-                        <div class="col xs-12">
-                            <h6>Project: HTML Email Grid Framework</h6>
-                            <p>Learning from the tedious process of developing HTML emails by hand, I developed a CSS framework and automated build system for HTML Emails.</p>
-                        </div>
-                        <h4 class="col xs-12">Email Design/HTML • HTML/CSS • UX/UI Design • JavaScript • Twitter Bootstrap • PHP • Git • Handlebars.js</h4>
-                    </div>
-                    <div class="row row-gutter row-gutter-top section-job">
-                        <div class="col sm-6 ">
-                            <h4>UX/UI Developer &amp; Designer<br> <span class="text-body"><a class="text-bold" href="http://www.edgecase.io" target="_blank">Edgecase (Formerly Compare Metrics) </a></span></h4>
-                        </div>
-                        <h6 class="col sm-6  text-right text-body">March 2013 – September 2013<br>Austin, TX</h6>
-                        <p class="col xs-12">With start-up hustle, I designed and developed everthing from marketing design to front-end development for demo product implementations.</p>
-                        <div class="col sm-6 ">
-                            <h6>Project: Client Implementations </h6>
-                            <p>I designed mockups and implemented demos of product integrations and oversaw the same work done by offshore contractors.</p>
-                        </div>
-                        <div class="col sm-6 ">
-                            <h6>Project: Marketing Website &amp; Blog</h6>
-                            <p>I designed and developed the marketing website and blog, providing illustration and photography.</p>
-                        </div>
-                        <h4 class="col xs-12">UX/UI Design • UI Development • HTML5 • CSS • Wordpress</h4>
                     </div>
                 </div>
-            </div>
-            <div class="col xs-12 sm-fixed-5 lg-fixed-3 vertical-rule">
-                <h1>Skills</h1>
-                <h4>UI &amp; Front-End Development</h4>
-                <h6>JavaScript</h6>
-                <p>AngularJS 1 • Lodash / Underscore • jQuery • Grunt • Gulp • Browserify • Webpack • NodeJs/p>
-                    <h6>HTML &amp; CSS </h6>
-                    <p>Flexbox • Sass CSS • Preprocessing • PostCSS • Responsive Design • Twitter Bootstrap • HTML Email</p>
-                    <h6>Workflow</h6>
-                    <p>Git Version Control • Agile / Lean • Project management • Style Guides • Asset Management
-                    </p>
-                    <h4>Design</h4>
-                    <h6>User Experience Design</h6>
-                    <p>User Interface • Frameworks & Grids • Wireframes & Mock-ups • Prototyping • Design in code
-                    </p>
-                    <h6>Visual Design</h6>
-                    <p>Typography • Icon Design • Logo Design • Illustration</p>
-                    <h6>Abobe Software</h6>
-                    <p>Photoshop • Illustrator • InDesign</p>
-                    <h4>Education</h4>
-                    <h6>Bachelor of Fine Arts in Photography&nbsp;&&nbsp;Sculpture</h6>
-                    <p><a class="text-bold"
-                         href="http://www.sfasu.edu/"
-                         target="_blank">Stephen F. Austin State University</a><br> Graduated in 2011 with 3.5 GPA</p>
+                <div class="gutter vertical-rule xs-hide sm-flex"></div>
+                <div class="col xs-12 sm-fixed-5 lg-fixed-3">
+                    <h1>Skills</h1>
+                    <h4>UI &amp; Front-End Development</h4>
+                    <h6>JavaScript</h6>
+                    <p>AngularJS 1 • Lodash / Underscore • jQuery • Grunt • Gulp • Browserify • Webpack • NodeJs/p>
+                        <h6>HTML &amp; CSS </h6>
+                        <p>Flexbox • Sass CSS • Preprocessing • PostCSS • Responsive Design • Twitter Bootstrap • HTML Email</p>
+                        <h6>Workflow</h6>
+                        <p>Git Version Control • Agile / Lean • Project management • Style Guides • Asset Management
+                        </p>
+                        <h4>Design</h4>
+                        <h6>User Experience Design</h6>
+                        <p>User Interface • Frameworks & Grids • Wireframes & Mock-ups • Prototyping • Design in code
+                        </p>
+                        <h6>Visual Design</h6>
+                        <p>Typography • Icon Design • Logo Design • Illustration</p>
+                        <h6>Abobe Software</h6>
+                        <p>Photoshop • Illustrator • InDesign</p>
+                        <h4>Education</h4>
+                        <h6>Bachelor of Fine Arts in Photography&nbsp;&&nbsp;Sculpture</h6>
+                        <p><a class="text-bold"
+                             href="http://www.sfasu.edu/"
+                             target="_blank">Stephen F. Austin State University</a><br> Graduated in 2011 with 3.5 GPA</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer text-white text-right xs-hide sm-flex">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col xs-12 icon-group ">
-                    <div class="text-scale-4"
-                     style="margin-bottom:0;">
+        <div class="footer text-white text-right xs-hide sm-flex">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col xs-12 icon-group ">
+                        <div class="text-scale-4"
+                         style="margin-bottom:0;">
+                        </div>
                     </div>
                 </div>
             </div>
