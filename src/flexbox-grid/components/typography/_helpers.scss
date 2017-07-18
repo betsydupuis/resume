@@ -45,7 +45,7 @@
 }
 
 .font-display {
-    font-family: "aleo";
+    font-family: $font-serif;
     font-weight: 300;
 
     &.text-bold, b {
@@ -54,6 +54,10 @@
 }
 
 .font-script {
+    font-family: 'beginning-yoga';
+}
+
+.font-serif {
     font-family: 'beginning-yoga';
 }
 
