@@ -17,7 +17,6 @@
 // @import "**/_mixins.scss";
 @import "base/_variables.scss";
 
-@import "components/row-scrollable/_row-scrollable.scss";
 @import "components/typography/typography.scss";
 @import "components/buttons/_buttons.scss";
 @import "components/button-ghost/button-ghost.scss";
@@ -25,3 +24,7 @@
 @import "components/footer/footer.scss";
 @import "components/highlight/elements/highlight-box/highlight-box.scss";
 @import "components/cards/cards.scss";
+
+@import "components/row-scrollable/_row-scrollable.scss";
+@import "behaviors/scroll/_scroll.scss";
+@import "colors/_colors.scss"

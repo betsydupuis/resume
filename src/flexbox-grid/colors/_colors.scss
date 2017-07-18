@@ -1,25 +1,18 @@
-.footer {
-    background: #ff5400;
+.bg-orange {
+	background: #ff5400;
     color: #fff;
-    min-height: 12px;
-    margin-top: 24px;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 6px 12px;
-    
     a,
     a:visited,
     .btn-link {
         color: #fff;
+        transition: transform 0.25s;
 
         &:active,
         &:focus,
         &:hover {
             color: #fff;
+		    transform: scale(1.08);
             text-decoration: none;
         }
     }
-}
+};
