@@ -1,5 +1,5 @@
 .bg-orange {
-	background: #ff5400;
+    background: #ff5400;
     color: #fff;
     a,
     a:visited,
@@ -11,8 +11,14 @@
         &:focus,
         &:hover {
             color: #fff;
-		    transform: scale(1.08);
+            transform: scale(1.08);
             text-decoration: none;
         }
     }
-};
+}
+
+;
+
+.text-light-gray {
+    color: #666;
+}
