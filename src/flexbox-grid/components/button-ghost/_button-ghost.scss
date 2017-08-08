@@ -21,7 +21,8 @@
     border-radius: 50px;
 }
 
-.btn-ghost, a.btn-ghost {
+.btn-ghost,
+a.btn-ghost {
     @include btn-ghost;
 
     &.btn-active,
