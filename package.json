@@ -30,7 +30,6 @@
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "predeploy-force": "npm install --force",
     "deploy-force": "git push origin `git subtree split --prefix dist deploy-gh-pages`:gh-pages --force"
-
   },
   "author": "Betsy Dupuis",
   "license": "none",
@@ -44,9 +43,8 @@
     "js-beautify": "^1.6.14",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.3",
-    "normalize.css": "^3.0.3",
     "npm-run-all": "^4.0.2",
-    "plasma.css": "^1.3.3",
+    "plasma.css": "^1.3.7",
     "postcss": "^6.0.5",
     "postcss-cli": "^4.1.0",
     "postcss-discard-comments": "^2.0.4",
